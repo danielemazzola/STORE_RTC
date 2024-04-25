@@ -43,7 +43,6 @@ span {
 a {
   text-decoration: none;
   color: var(--dani-border-color);
-  padding: 5px;
 }
 li {
   list-style: none;

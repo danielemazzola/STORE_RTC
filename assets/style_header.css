@@ -42,6 +42,7 @@
   display: flex;
   align-items: center;
   border-radius: 5px;
+  padding: 5px;
   cursor: pointer;
 }
 .nav_header > li a:hover {
@@ -80,6 +81,11 @@
   }
   #nav_header {
     width: var(--dani-full);
+    order: 2;
+  }
+  .nav_header {
+    display: flex;
+    justify-content: space-around;
   }
   .nav_header > li a {
     color: var(--dani-blue-color);
@@ -95,6 +101,7 @@
     flex-direction: column-reverse;
     align-items: end;
     gap: var(--dani-s);
+    order: 3;
   }
   #select_categories {
     border-radius: 5px;
@@ -121,11 +128,15 @@
   .nav_header {
     flex-direction: column;
   }
-  .nav_header > li {
+  .nav_header > ul > li {
     gap: var(--dani-xs);
     margin-bottom: var(--dani-s);
   }
-  svg {
-    width: 20px;
+  .nav_header > li > a > p {
+    display: none;
+  }
+  .nav_header {
+    display: flex;
+    flex-direction: row;
   }
 }
