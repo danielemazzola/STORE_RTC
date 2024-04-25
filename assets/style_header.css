@@ -48,6 +48,7 @@
 .nav_header > li a:hover {
   background-color: var(--dani-primary-color);
   color: var(--dani-blue-color);
+  transition: all 0.5s;
 }
 
 .count_article {
@@ -123,7 +124,7 @@
 }
 @media (max-width: 439px) {
   .title {
-    font-size: var(--dani-l);
+    font-size: var(--dani-xl);
   }
   .nav_header {
     flex-direction: column;

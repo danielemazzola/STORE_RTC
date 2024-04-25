@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/style_global.css" />
     <link rel="stylesheet" href="assets/style_header.css" />
+    <link rel="stylesheet" href="assets/style_nav_secondary.css" />
     <title>FROM EVERY STORE</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
         <form class="">
           <select name="select_categories" id="select_categories">
             <option value="all_categories">Todas las categorías</option>
-            <option value="orange_days_2024">Días Naranjas 2024</option>
+            <option value="orange_days_2024">Días Azulados 2024</option>
             <option value="reconditioned">Reacondicionados</option>
           </select>
         </form>
@@ -88,12 +89,43 @@
       </nav>
     </header>
     <main>
-      <section>
-        <div class="flex justify-center align-items-center">
-          <p>imagen</p>
+      <section id="nav_secondary">
+        <div class="container_secondary">
+          <div>
+            <button class="btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="action"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+          </div>
           <p><b>Todas las categorias</b></p>
         </div>
-        <div></div>
+        <nav class="nav_secondary">
+          <ul>
+            <li>
+              <a href=""> Gaming </a>
+            </li>
+            <li><a href="">Portátiles</a></li>
+            <li><a href="">Componentes</a></li>
+            <li><a href="">Smartphone</a></li>
+            <li><a href="">Televisores</a></li>
+            <li><a href="">Hogar tech</a></li>
+            <li>
+              <b><a href="" class="text_special">Ofertas Días Azuladas</a></b>
+            </li>
+          </ul>
+        </nav>
       </section>
       <section>todas las categorias / nav / ofertas días naranjas</section>
       <section>Expertos</section>
