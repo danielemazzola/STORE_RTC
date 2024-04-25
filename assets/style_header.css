@@ -137,3 +137,19 @@ li {
     background-color: var(--dani-blue-color);
   }
 }
+@media (max-width: 389px) {
+  .nav_header {
+    flex-direction: column;
+  }
+  .nav_header > li {
+    gap: var(--dani-xs);
+    margin-bottom: var(--dani-s);
+  }
+  svg {
+    width: 20px;
+  }
+  #form_search,
+  #select_categories {
+    width: 80%;
+  }
+}
