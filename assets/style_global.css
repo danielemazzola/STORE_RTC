@@ -32,7 +32,7 @@ h2 {
   font-size: var(--dani-l);
 }
 h3 {
-  font-size: var(--dani-m);
+  font-size: var(--dani-s);
 }
 p {
   font-size: var(--dani-s);
@@ -49,4 +49,8 @@ li {
 }
 svg {
   height: 20px;
+}
+.text_no_bold {
+  font-weight: 300;
+  font-size: 15px;
 }
