@@ -2,19 +2,27 @@
 :root {
   --dani-primary-color: rgb(248, 248, 248);
   --dani-secondary-color: rgb(236, 236, 236);
-  --dani-blue-color: rgb(41, 11, 122);
+  --dani-blue-color: rgb(20, 0, 92);
+  --dani-blueOpacity-color: rgba(20, 0, 92, 0.527);
   --dani-border-color: rgb(87, 87, 87);
   --dani-xs: 10px;
   --dani-s: 15px;
   --dani-m: 30px;
   --dani-l: 40px;
   --dani-xl: 50px;
+  --dani-xxl: 80px;
   --dani-full: 100%;
 }
 * {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: var(--dani-full);
+  background-color: var(--dani-primary-color);
 }
 a {
   text-decoration: none;
