@@ -17,6 +17,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 body {
   display: flex;
@@ -24,11 +25,29 @@ body {
   width: var(--dani-full);
   background-color: var(--dani-primary-color);
 }
+h1 {
+  font-size: var(--dani-xxl);
+}
+h2 {
+  font-size: var(--dani-l);
+}
+h3 {
+  font-size: var(--dani-m);
+}
+p {
+  font-size: var(--dani-s);
+}
+span {
+  font-size: var(--dani-xs);
+}
 a {
   text-decoration: none;
   color: var(--dani-border-color);
+  padding: 5px;
 }
 li {
   list-style: none;
-  padding: 10px 20px;
+}
+svg {
+  height: 20px;
 }
