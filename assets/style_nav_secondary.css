@@ -28,7 +28,8 @@
   transition: all 0.5s;
 }
 .btn {
-  border: none;
+  border-style: none;
+  background-color: var(--dany-primary-color);
   cursor: pointer;
 }
 .action:hover {
