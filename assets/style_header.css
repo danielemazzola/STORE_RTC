@@ -38,11 +38,10 @@
 }
 .nav_header > li > a {
   color: var(--dani-primary-color);
-  height: 20px;
   display: flex;
   align-items: center;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 10px;
   cursor: pointer;
 }
 .nav_header > li a:hover {

@@ -17,14 +17,17 @@
   align-items: center;
 }
 .text_special {
-  background: var(--dani-blue-color);
+  background-color: var(--dani-blue-color);
   color: var(--dani-primary-color);
   padding: var(--dani-xs);
   border-radius: 5px;
+  cursor: pointer;
 }
 .text_special:hover {
+  background-color: var(--dani-primary-color);
+  color: var(--dani-blue-color);
+  border: 1px solid var(--dani-border-color);
   translate: 1px 3px;
-  cursor: pointer;
   transition: all 0.5s;
 }
 .btn {

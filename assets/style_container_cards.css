@@ -1,5 +1,5 @@
 #container_cards {
-  margin: 10px 0 50px 0;
+  margin: 10px 0 10px 0;
   width: var(--dani-full);
   height: 270px;
   background-color: var(--dani-primary-color);
@@ -33,12 +33,17 @@
   text-align: center;
   padding-bottom: 25px;
 }
+.card:hover {
+  opacity: 0.7;
+  border-radius: 10px;
+  transition: all 0.1s;
+}
 
 /* Estilos para la barra de desplazamiento */
 /* Riel de la barra */
 ::-webkit-scrollbar {
-  width: 10px; /* Anchura de la barra de desplazamiento */
-  height: 7px; /* Altura de la barra de desplazamiento (para scrollbar horizontal) */
+  width: 5px; /* Anchura de la barra de desplazamiento */
+  height: 5px; /* Altura de la barra de desplazamiento (para scrollbar horizontal) */
 }
 
 /* Estilo del pulgar de la barra */
