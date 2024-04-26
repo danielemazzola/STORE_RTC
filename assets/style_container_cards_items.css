@@ -7,7 +7,7 @@
 .container_cards_grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin-top: 20px;
+  margin: 20px 0;
 }
 .card_grid {
   background-color: var(--dani-primary-color);

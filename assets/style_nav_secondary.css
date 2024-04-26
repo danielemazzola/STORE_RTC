@@ -9,12 +9,19 @@
   display: flex;
   gap: var(--dani-s);
   align-items: center;
+  cursor: pointer;
 }
 .nav_secondary > ul {
   display: flex;
   align-items: center;
   gap: var(--dani-s);
   align-items: center;
+}
+.nav_secondary > ul > li > a {
+  padding: 10px;
+}
+.nav_secondary > ul > li a:hover {
+  background-color: var(--dani-secondary-color);
 }
 .text_special {
   background-color: var(--dani-blue-color);
@@ -38,24 +45,4 @@
 .action:hover {
   color: rgb(55, 170, 99);
   transition: all 0.5s;
-}
-@media (max-width: 1007px) {
-  .nav_secondary > ul li {
-    display: none;
-  }
-  .nav_secondary > ul li:last-child {
-    display: flex;
-  }
-}
-@media (max-width: 439px) {
-  #nav_secondary {
-    /* flex-direction: column-reverse; */
-    gap: var(--dani-s);
-    width: var(--dani-full);
-  }
-}
-@media (max-width: 390px) {
-  #nav_secondary {
-    flex-direction: column-reverse;
-  }
 }
